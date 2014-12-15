@@ -2,7 +2,7 @@ Package.describe({
   name: "solderzzc:disable-hot-code-push",
   summary: "On Cordova, disable hot code push.",
   version: '1.0.4',
-  git: "https://github.com/meteor/mobile-packages"
+  git: "https://github.com/solderzzc/mobile-packages/tree/master/packages/solderzzc:disable-hot-code-push"
 });
 
 Package.on_use(function (api) {
