@@ -1,6 +1,6 @@
 Package.describe({
-  name: "mdg:reload-on-resume",
-  summary: "On Cordova, only allow the app to reload when the app is resumed.",
+  name: "solderzzc:disable-hot-code-push",
+  summary: "On Cordova, disable hot code push.",
   version: '1.0.4',
   git: "https://github.com/meteor/mobile-packages"
 });
@@ -12,6 +12,6 @@ Package.on_use(function (api) {
   // Imply so that we can access the Reload export from an app
   api.imply(['reload'], 'web');
 
-  api.add_files("reload-on-resume.js", 'web.cordova');
+  api.add_files("disable-hot-code-push.js", 'web.cordova');
   api.add_files("browser.js", 'web.browser');
 });
